@@ -17,7 +17,7 @@ def convolve(x, h ):
     return y
 
 fs = 1000
-cutoff_freq = 100
+cutoff_freq = 100 
 
 # Number of filter coefficient
 num_taps = 15
