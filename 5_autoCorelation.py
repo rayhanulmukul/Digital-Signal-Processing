@@ -6,7 +6,10 @@ def corelation(x):
     length = (sz * 2) - 1
     x_n = [0] * length
     for k in range(length):
-        x_n[k] = sum(x[n] * x[n + k] for n in range(sz - k))
+        for n in range(sz):
+            if 0 <= n < sz and 0 <= k - sz + 1 + n < sz:  # Adjusted indexing for symmetry
+                print(k, n)
+                x_n[k] += x[n] * x[k - sz + 1 + n]
     return x_n
 
 # Sequence

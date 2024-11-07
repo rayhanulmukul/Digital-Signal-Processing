@@ -1,0 +1,7 @@
+1. Signal Generation
+2. Alaising
+3. Up/Down Sampling
+4. Convolution
+5. Corelation
+6. Phase Spectrum
+7. Differential Equation/ Filter (Conv or Core)
